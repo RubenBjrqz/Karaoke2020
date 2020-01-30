@@ -10,6 +10,9 @@
         <ProgressBar x:Name="pbAvanzar" HorizontalAlignment="Left" Height="9" Margin="10,400,0,0" VerticalAlignment="Top" Width="772" Visibility="Collapsed"
                      />
         <Button x:Name="btnReproducir" Content="▶️" HorizontalAlignment="Left" Margin="707,375,0,0" VerticalAlignment="Top" Width="75" Click="BtnReproducir_Click"/>
+        <TextBlock x:Name="txtEspañol" HorizontalAlignment="Left" Margin="10,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="79" Width="772" FontFamily="Arial" FontSize="24" TextAlignment="Center" LineHeight="6" Text="" Visibility="Collapsed"/>
+        <TextBlock x:Name="txtJapones" HorizontalAlignment="Left" Margin="10,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="84" Width="772" FontFamily="Arial" FontSize="24" TextAlignment="Center" LineHeight="6" Text="" Visibility="Collapsed"/>
+        <TextBlock x:Name="txtCancion" HorizontalAlignment="Left" Margin="10,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="67" Width="772" FontFamily="Arial" Text="Bakuman 3 - Opening 2" FontSize="48" FontWeight="Bold" TextAlignment="Center" Visibility="Visible"/>
 
     </Grid>
 </Window>
